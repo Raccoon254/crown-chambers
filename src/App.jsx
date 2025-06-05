@@ -18,7 +18,7 @@ function App() {
                 <div className="max-w-7xl mx-auto flex items-center justify-between">
                     {/* Logo */}
                     <div className="flex items-center space-x-3">
-                        <div className="relative h-14 w-14 bg-gradient-to-br rounded-full overflow-hidden from-amber-400 to-amber-600 rounded-xl shadow-lg">
+                        <div className="relative min-h-14 min-w-14 max-h-14 max-w-14 bg-gradient-to-br rounded-full overflow-hidden from-amber-400 to-amber-600 rounded-xl shadow-lg">
                             <img src="/logo.png" alt="Crown Chambers Logo" className="object-cover" />
                         </div>
                         <div>
@@ -38,7 +38,7 @@ function App() {
 
                     {/* Auth Buttons */}
                     <div className="flex items-center space-x-3">
-                        <button className="px-6 py-2 cursor-pointer bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold text-sm rounded-md hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
+                        <button className="px-6 hidden md:block py-2 cursor-pointer bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold text-sm rounded-md hover:from-amber-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
                             Login
                         </button>
                         <button className="px-4 py-2 cursor-pointer rounded-md ring ring-inset text-gray-700 hover:text-amber-600 font-medium text-sm transition-colors">
