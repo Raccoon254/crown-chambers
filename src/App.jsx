@@ -18,8 +18,8 @@ function App() {
                 <div className="max-w-7xl mx-auto flex items-center justify-between">
                     {/* Logo */}
                     <div className="flex items-center space-x-3">
-                        <div className="relative p-2 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl shadow-lg">
-                            <Crown className="w-8 h-8 text-white" />
+                        <div className="relative h-14 w-14 bg-gradient-to-br rounded-full overflow-hidden from-amber-400 to-amber-600 rounded-xl shadow-lg">
+                            <img src="/logo.png" alt="Crown Chambers Logo" className="object-cover" />
                         </div>
                         <div>
                             <h1 className="text-xl font-bold text-gray-900">Crown Chambers</h1>
